@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<bean id="regValidator" class="com.neu.spring.validator.RegistrationValidator"></bean>
+		<bean id="addCarValidator" class="com.neu.spring.validator.AddCarValidator"></bean>
+
+		<bean id="reservationDao" class="com.neu.spring.dao.ReservationDAO"/>
+		<bean id="paymentDao" class="com.neu.spring.dao.PaymentDAO"/>
+		<bean id="mail" class="com.neu.spring.ejb.MailSenderBean"/>
+		<bean id="Dao" class="com.neu.spring.dao.DAO"/>
+		<bean id="carDao" class="com.neu.spring.dao.CarDAO"/>
+		<bean id="userAccountDao" class="com.neu.spring.dao.UserAccountDAO" />
+</beans>
