@@ -1,0 +1,37 @@
+Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects.
+
+It simplifies the software development and maintenance by providing some concepts:
+
+Object
+Class
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+
+Object:
+Any entity that has state and behavior is known as an object. 
+
+Class:
+Collection of objects is called class.
+
+- Object-oriented language supports all the features of OOPs but, Object-based language doesn't support all the features of OOPs like Polymorphism and Inheritance.
+- They are giving example of javascript as object based and java as object oriented
+
+Inheritance:
+When one object acquires all the properties and behaviours of parent object i.e. known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
+
+Polymorphism:
+Polymorphism literally means "many forms".
+When one task is performed by different ways i.e. known as polymorphism. 
+
+In java, we use method overloading and method overriding to achieve polymorphism.
+
+Abstraction:
+Hiding internal details and showing functionality is known as abstraction.
+In java, we use abstract class and interface to achieve abstraction.
+
+Encapsulation
+Binding (or wrapping) code and data together into a single unit is known as encapsulation. For example: capsule, it is wrapped with different medicines.
+A java class is the example of encapsulation. Java bean is the fully encapsulated class because all the data members are private here.
+
