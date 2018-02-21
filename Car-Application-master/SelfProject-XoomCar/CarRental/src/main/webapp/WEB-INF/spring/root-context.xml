@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+
+	<bean id="carDao" class="com.neu.edu.dao.CarDAO"/>
+	<bean id="customerDAO" class="com.neu.edu.dao.CustomerDAO"/>
+	<bean id="Dao" class="com.neu.edu.dao.DAO"/>
+	<bean id="reservationDao" class="com.neu.edu.dao.ReservationDao"/>
+	<bean id="paymentDao" class="com.neu.edu.dao.PaymentDao"/>
+	<bean id ="customer" class="com.neu.edu.pojo.Customer"/>
+	<bean id ="car" class="com.neu.edu.pojo.Car"/>
+	<bean id ="payment" class="com.neu.edu.pojo.Payment"/>
+	<bean id ="reservation" class="com.neu.edu.pojo.Reservation"/>
+	<bean id ="userAccount" class="com.neu.edu.pojo.UserAccount"/>
+</beans>
