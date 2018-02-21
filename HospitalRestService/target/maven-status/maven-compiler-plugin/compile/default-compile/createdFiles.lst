@@ -1,0 +1,4 @@
+com\mycompany\hospitalrestservice\model\Disease.class
+com\mycompany\hospitalrestservice\dao\SymptomDao.class
+com\mycompany\hospitalrestservice\services\Service.class
+com\mycompany\hospitalrestservice\util\HibernateUtil.class
